@@ -1,0 +1,39 @@
+body {
+    color: white;
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50pt; 
+}
+
+#Links {
+    display: grid;
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+    text-align: left;
+}
+
+#Reviews {
+    border: 10px solid black;
+    text-align: center;
+    font-size: 25px;
+    margin: 10em;
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30pt;
+}
+
+#Projects {
+    text-align: center;
+    border: 3px solid white;
+    background-color: black;
+}
