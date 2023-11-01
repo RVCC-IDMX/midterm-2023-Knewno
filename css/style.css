@@ -5,7 +5,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 50pt; 
+    font-size: 50pt;
 }
 
 #Links {
@@ -36,4 +36,22 @@ h2 {
     text-align: center;
     border: 3px solid white;
     background-color: black;
+}
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    figure img {
+        width: 100%;
+    }
 }
